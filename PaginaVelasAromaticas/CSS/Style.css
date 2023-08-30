@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Koh+Santepheap:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Serif', serif;
+}
+
+.header{
+    background-color: #62BFED;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 120px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 15px;
+}
+
+
+.header .Nombre-de-la-pagina{
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    margin: 10px;
+    transition: all 0.3s;
+    font-size: 50px;
+    margin-left: -60px;
+}
+/*
+.header .Nombre-de-la-pagina:hover{
+    transform: scale(1.2);
+}*/
+
+.eslogan{
+    margin-right: 80px;
+}
+
+.eslogan .frase{
+    margin: 30px;
+    font-size: 25px;
+    color:azure;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 5px;
+    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header .van-links li a:hover{
+    color: #000000;
+}
+/*
+hr{
+    height: 50px;
+    width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+*/
+/*
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #F8F32B;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 03.s ease 0s;
+}
+.header .btn1 button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 03.s ease 0s;
+    margin-right: -90px;
+}
+*/
+
+.header a{
+    margin-right: 10px;
+}
+
+.header .btn button:hover{
+    background-color: #F8F32B;
+    color: #26abe4;
+    transform: scale(1.1);
+}
+.header .btn1 button:hover{
+    background-color: #ffffff;
+    color: #1b3039;
+    transform: scale(1.1);
+}
+
+
+/*primera pestaña*/
+.introduccion{
+    background-color: #A2AEBB;
+    margin-top: -25px;
+    height: 500px;
+    height: 100%;
+}
+.texto{
+    margin-right: 30px;
+    height: 500px;  
+    width: 50%;
+
+    border-radius: 150px;
+}
+
+.imagen2{
+    border-radius: 150px;
+}
+
+.introduccion .conta1 .imagen2{
+    width: 50%;
+}
+
+.conta1{
+    display: flex;
+    height: 500px;
+    margin: 25px;
+}
+
+.conta1 .texto h2{
+    margin: 50px;
+    font-size: 30px;
+}
+.conta1 .texto p{
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.imagen2 img{
+    margin: 30px;
+    margin-left: 150px;
+    border-radius: 100px;
+}
+
+
+/*catalogo*/
+
+.catalogo{
+    height: 1600px;
+    width: 100%;
+    margin-top: -25px;
+    background: #D4F4DD;
+}
+
+
+
+
+
+/*contactenos*/
+.contactenos{
+}
+
+.contenido-ter{
+    background-color: #000000;
+    border-radius: 1px;
+    
+}
+
+.contenido-ter .imagen-ter img{
+    margin: 10px;
+    border-radius: 500px;
+}
+
+.contenido-ter .contactenos{
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.contactenos .titulo h1{
+    font-size: 50px;
+    justify-content: center;
+}
+
+.redesS{
+    width: 100px;
+    height: 400px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -700px;
+    margin-left: 800px;
+    display: flex;
+}
+
+.icons{
+    font-size: 60px;
+    margin: 15px;
+}
+
+
+.comentarios{
+    display: flex;
+    height: 950px;
+    margin-left:800px ;
+}
+
+.comunidad .difuminado-com .comentarios-propios{
+    background-color: #1c1818a8;
+    height: 350px;
+    width: 300px;
+    border:3px solid #1c1818a8;
+    margin-left: 100px;
+    margin-top: 70px;
+
+
+}
+
+
+.comentarios .comentarios-propios .nombre-usuario{
+    color: #ffffff;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.comentarios .comentarios-propios .mensaje{
+    background-color: #685F5F;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.xx{
+    color: #B6B5B5;
+}
+
+.boton-enviar{
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 190px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.enviar{
+    margin: 10px;
+    font-size: 20px;
+    color: #000000;
+}
